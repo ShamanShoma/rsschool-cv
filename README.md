@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ShamanShoma.github.io/rsschool-cv/
