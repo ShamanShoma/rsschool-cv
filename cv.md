@@ -28,10 +28,9 @@ I strive to develop in this direction, see myself as a programmer who creates ne
 
 ---
 
-## Courses:
-- **BEEGEEK School: The Python Generation**  
-- **Web Development for Beginners: HTML and CSS**  
+## Courses:  
 - **RS-School: JavaScript/Front-end developer**
+- **Self-study through books and articles
 
 ---
 
