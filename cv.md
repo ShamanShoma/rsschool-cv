@@ -1,3 +1,5 @@
+![my foto](/rsschool-cv/image/%D1%8F.jpg "My foto")
+
 # Anton Varlakov
 ## Novice front-end developer
 ---
