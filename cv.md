@@ -34,6 +34,20 @@ I strive to develop in this direction, see myself as a programmer who creates ne
 
 ---
 
+### Code:
+```
+<input>
+
+let elem = document.querySelector('input');
+
+elem.addEventListener('keypress', function(event) {
+	console.log(event.key);
+    console.log(event.code);
+});
+```
+
+---
+
 ### Language:
 - English \- basic level;
 - Russian \- native
