@@ -30,7 +30,7 @@ I strive to develop in this direction, see myself as a programmer who creates ne
 
 ## Courses:  
 - **RS-School: JavaScript/Front-end developer**
-- **Self-study through books and articles
+- **Self-study through books and articles**
 
 ---
 
