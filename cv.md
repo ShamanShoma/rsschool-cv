@@ -22,3 +22,19 @@ I strive to develop in this direction, see myself as a programmer who creates ne
 - VS Code;
 
 ---
+
+### Education:
+**Full Secondary Education**
+
+---
+
+## Courses:
+- **BEEGEEK School: The Python Generation**  
+- **Web Development for Beginners: HTML and CSS**  
+- **RS-School: JavaScript/Front-end developer**
+
+---
+
+### Language:
+- English \- basic level;
+- Russian \- native
