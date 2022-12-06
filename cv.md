@@ -4,7 +4,7 @@
 ## Novice front-end developer
 ---
 ### Contact info:
-**phone number:** +79923026108  
+**phone number:** +79923026108
 **email:** shamanshoma@icloud.com
 
 ---
@@ -30,7 +30,7 @@ I strive to develop in this direction, see myself as a programmer who creates ne
 
 ---
 
-## Courses:  
+## Courses:
 - **RS-School: JavaScript/Front-end developer**
 - **Self-study through books and articles**
 
