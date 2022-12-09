@@ -13,17 +13,15 @@ body {
     padding: 0;
     min-height: 100vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
     font-family: 'Roboto', sans-serif;
 }
 
 .conteiner {
-    max-width: 1440px;
+    max-width: 80%;
     margin: 0 auto;
 }
+
+/* HEADER */
 
 .header {
     height: 50px;
@@ -36,10 +34,11 @@ body {
 
 .nav-list {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
-    margin-top: 13px;
-    padding: 0;
+    margin: 0;
+    padding-left: 0;
+    padding-top: 13px;
     list-style: none;
 }
 
@@ -47,9 +46,43 @@ body {
     text-decoration: none;
     color: rgb(0, 0, 111);
     font-size: 18px;
-    transition: 0.8s;
+    transition: 0.6s;
+    border: 0.8px solid white;
+    border-radius: 10%;
+    width: 202px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .nav-link:hover {
     color: white;
+    border: 0.8px solid rgb(0, 0, 111);
 }
+
+/*----- HEADER ----- */
+
+/* main */
+
+.section__inner {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.name_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    font-size: 80px;
+    margin: 0;
+    color: rgb(26, 26, 220);
+}
+
+.foto {
+    width: 350px;
+    height: 350px;
+}
+/*----- main -----*/
