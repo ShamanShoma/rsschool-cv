@@ -79,6 +79,21 @@ span {
     letter-spacing: 4px;
     width: 440px;
     color: #964b00;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.line {
+    background-color: white;
+    width: 60px;
+    height: 5px;
+    border-radius: 20%;
+}
+
+.foto {
+    width: 450px;
+    height: 420px;
+    margin-top: 23px;
 }
 
 /*----- main -----*/
