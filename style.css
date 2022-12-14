@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.conteiner {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    height: 50px;
+    background-color: rgb(96, 96, 96);
+}
+
+.nav {
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0;
+    padding-left: 0;
+    padding-top: 13px;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.6s;
+    border: 0.8px solid white;
+    border-radius: 10%;
+    width: 202px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-link:hover {
+    color: rgb(0, 0, 111);
+    /* border: 0.8px solid rgb(0, 0, 111); */
+}
+
+/*----- HEADER ----- */
+
+/* main */
+
+.name {
+    background-color: rgb(128, 128, 128);
+    height: 550px;
+}
+
+.title {
+    width: 440px;
+    font-size: 64px;
+    color: white;
+    margin: 0;
+    padding-top: 50px;
+}
+
+span {
+    font-weight: 300;
+}
+
+.job_title {
+    font-size: 25px;
+    letter-spacing: 4px;
+    width: 440px;
+    color: #964b00;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.line {
+    background-color: white;
+    width: 60px;
+    height: 5px;
+    border-radius: 20%;
+}
+
+.block_foto_contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto {
+    width: 450px;
+    height: 420px;
+    margin-top: 23px;
+}
+
+.contact {
+    margin: 90px 50px 0 60px;
+}
+
+.contact_text {
+    font-size: 24px;
+    list-style-type: none;
+}
+
+.icon_contact {
+    margin-right: 15px;
+}
+
+.abount_me {
+    margin-top: 100px;
+}
+
+.line_yellow {
+    width: 100%;
+    height: 5px;
+    background-color: #F7C90B;
+}
+
+.abount_me__text {
+    margin-top: 0;
+}
+
+/*----- main -----*/
+
+/* footer */
+
+.footer {
+    height: 80px;
+    background-color: rgb(128, 128, 128);
+    margin-top: 20px;
+}
+
+.git-rs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.git,
+.rs {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rs__link {
+    text-decoration: none;
+    color:#F7C90B;
+}
+
+.rs_icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+/*----- footer -----*/

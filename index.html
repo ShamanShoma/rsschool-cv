@@ -4,10 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My cv</title>
+    <link rel="icon" href="icon/video-calling.ico">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img class="foto" src="image/my_foto.jpg" alt="my_foto">
+    <header class="header">
+        <div class="conteiner">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#abount_me">Abount me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#code">Code</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#language">Language</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#footer">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="section name" id="contact">
+            <div class="conteiner">
+                <h1 class="title"><span>Anton</span> Varlakov</h1>
+                <h2 class="job_title">Novice front-end developer</h2>
+                <div class="line"></div>
+                <div class="block_foto_contact">
+                    <img class="foto" src="image/my_foto.jpg" alt="my_foto">
+                    <ul class="contact">
+                        <li class="contact_text"><img class="icon_contact" src="icon/phone.png" alt="icon_phone">+79923026108</li>
+                        <li class="contact_text"><img class="icon_contact" src="icon/address.png" alt="icon_mail">shamanshoma@icloud.com</li>
+                        <li class="contact_text"><img class="icon_contact" src="icon/company.png" alt="icon_city">Russia, Tyumen</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section abount_me" id="abount_me">
+            <div class="conteiner about">
+                <div class="line_yellow"></div>
+                <div class="abount_me__inner">
+                    <div class="history">
+                        <h2 class="abount_me__title">Brief information about myself:</h2>
+                        <p class="abount_me__text">Currently studying at RS-School in JavaScript/Front-end developer. I study html, css, JavaScript. I'm a very fast learner! I really enjoy what I do. I strive to develop in this direction, I see myself as a programmer who creates new ambitious projects. I like to enjoy the process, see the result of my work. I am patient, attentive, stress-resistant.</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <section class="section" id="skills">
+            <div class="conteiner skill">
+                <div class="line_yellow"></div>
+                <h2 class="skill__title">Skills:</h2>
+                <ul class="skill-list">
+                    <li class="skill-link">HTML5, CSS3</li>
+                    <li class="skill-link">JavaScript (Basic)</li>
+                    <li class="skill-link">Git, GitHub</li>
+                    <li class="skill-link">VS Code</li>
+                    <li class="skill-link">Figma</li>
+                </ul>
+            </div>
+         </section>
+
+         <section class="section" id="education">
+            <div class="conteiner education">
+                <div class="line_yellow"></div>
+                <h2 class="education_title">Education:</h2>
+                <p>I have a full secondary education. Unfortunately, I did not have time to get a vocational education because I was drafted into the army.</p>
+            </div>
+         </section>
+
+         <section class="section" id="courses">
+            <div class="conteiner courses">
+                <div class="line_yellow"></div>
+                <h2 class="courses__title">Courses:</h2>
+                <ul class="courses-list">
+                    <li class="courses-link">RS-School: JavaScript/Front-end developer</li>
+                    <li class="courses-link">Self-study through books and articles</li>
+                </ul>
+            </div>
+         </section>
+
+         <section class="section" id="code">
+            <div class="conteiner code">
+                <div class="line_yellow"></div>
+                <h2 class="code__title">Code:</h2>
+                <pre>
+                    <code>
+                        let elem = document.querySelector('input');
+
+                        elem.addEventListener('keypress', function(event) {
+	                    console.log(event.key);
+                            console.log(event.code);
+                        });
+                    </code>
+                </pre>
+            </div>
+         </section>
+
+         <section class="section" id="language">
+            <div class="conteiner language">
+                <div class="line_yellow"></div>
+                <h2 class="language__title">Language:</h2>
+                <ul>
+                    <li>English: basic level</li>
+                    <li>Russian: native</li>
+                </ul>
+                <div class="line_yellow"></div>
+            </div>
+         </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <div class="conteiner footer_cont">
+            <div class="git-rs">
+                <div class="git">
+                    <a class="git__link" href="https://github.com/ShamanShoma"><img src="icon/icons8-github-60.png" alt="github"></a>
+                    <p>2022</p>
+                </div>
+                <div class="rs">
+                    <a class="rs__link" href="https://rs.school/js/">Welcome to RS-School</a>
+                    <a class="rs__link-icon" href="https://rs.school/js/"><img class="rs_icon" src="icon/rs_school_js.svg" alt="rs_school"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
