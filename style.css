@@ -111,6 +111,7 @@ span {
 
 .contact_text {
     font-size: 24px;
+    list-style-type: none;
 }
 
 .icon_contact {
@@ -132,3 +133,36 @@ span {
 }
 
 /*----- main -----*/
+
+/* footer */
+
+.footer {
+    height: 80px;
+    background-color: rgb(128, 128, 128);
+    margin-top: 20px;
+}
+
+.git-rs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.git,
+.rs {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rs__link {
+    text-decoration: none;
+    color:#F7C90B;
+}
+
+.rs_icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+/*----- footer -----*/
